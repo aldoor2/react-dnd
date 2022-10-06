@@ -1,4 +1,4 @@
-const DragAndDrop = (props) => {
+const DragAndDrop = ({ data, dispatch }) => {
   const handleDragEnter = (e) => {
     e.preventDefault()
     e.stopPropagation()
