@@ -23,6 +23,7 @@ h1 {
 
 .drag-drop-zone p {
   color: #FFF;
+  pointer-events: none;
 }
 
 .drag-drop-zone.inside-drag-area {
